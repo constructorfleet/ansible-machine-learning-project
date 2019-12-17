@@ -29,7 +29,7 @@
       block:
         - import_role:
             name: nvidia-docker
-      when: 'machine_learning' in group_names
+      when: "machine_learning" in group_names
 
     - name: Configure Telegraf
       block:
