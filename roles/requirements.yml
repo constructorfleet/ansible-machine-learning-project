@@ -1,5 +1,10 @@
 ---
-
+- src: https://github.com/ajanis/ansible-docker.git
+  name: docker
+  version: master
+- src: https://github.com/ajanis/ansible-telegraf.git
+  name: telegraf
+  version: master
 - src: https://github.com/constructorfleet/ansible-nvidia-docker.git
   name: nvidia-docker
   version: master
