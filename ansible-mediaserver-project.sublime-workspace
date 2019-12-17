@@ -1,0 +1,498 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"scheme",
+				"UI: Select Color Scheme"
+			],
+			[
+				"theme",
+				"UI: Select Theme"
+			],
+			[
+				"custom",
+				"Color Scheme Editor: Edit current color scheme"
+			],
+			[
+				"extract",
+				"PackageResourceViewer: Extract Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"ermove",
+				"Package Control: Remove Package"
+			],
+			[
+				"material",
+				"Material Theme: Configuration"
+			],
+			[
+				"material theme",
+				"Material Theme: Advanced configuration"
+			],
+			[
+				"material theme ",
+				"Material Theme: Configuration"
+			],
+			[
+				"syntax mark",
+				"Set Syntax: Markdown GFM"
+			],
+			[
+				"syntax markdo",
+				"Set Syntax: Markdown Light"
+			],
+			[
+				"syntax markd",
+				"Set Syntax: Markdown GFM"
+			],
+			[
+				"syntax markdown",
+				"Set Syntax: Markdown GFM"
+			],
+			[
+				"prv",
+				"PackageResourceViewer: Extract Package"
+			],
+			[
+				"syntax jinja",
+				"Set Syntax: Jinja2"
+			],
+			[
+				"syntax nginx",
+				"Set Syntax: Nginx Log"
+			],
+			[
+				"syntax jin",
+				"Set Syntax: Jinja2"
+			],
+			[
+				"markdown sc",
+				"MarkdownEditing: Change color scheme..."
+			],
+			[
+				"syntax mar",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"syntax markdow",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"syntax",
+				"Set Syntax: Markdown"
+			],
+			[
+				"preview",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"markdown link",
+				"Snippet: Markdown Hyperlink"
+			],
+			[
+				"markdown synta",
+				"Set Syntax: Markdown GFM"
+			],
+			[
+				"markdown syntax",
+				"Set Syntax: Markdown Light"
+			],
+			[
+				"markdown prev",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"markdown toc",
+				"MarkdownTOC:Insert TOC"
+			],
+			[
+				"markdownpreview",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"markdown",
+				"Set Syntax: Markdown"
+			],
+			[
+				"cheat",
+				"Markdown Preview: Open Markdown Cheat sheet"
+			],
+			[
+				"markdown pre",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"cheat sh",
+				"Markdown Preview: Open Markdown Cheat sheet"
+			],
+			[
+				"markdown che",
+				"Markdown Preview: Open Markdown Cheat sheet"
+			],
+			[
+				"markdowneditng",
+				"MarkdownEditing: Organize References"
+			],
+			[
+				"toc",
+				"MarkdownTOC:Update TOC"
+			],
+			[
+				"encrypt",
+				"Ansible Vault: Encrypt"
+			],
+			[
+				"decrypt",
+				"Ansible Vault: Decrypt"
+			],
+			[
+				"syslog",
+				"Set Syntax: Syslog"
+			],
+			[
+				"diff",
+				"Set Syntax: Diff"
+			],
+			[
+				"syntax perl",
+				"Set Syntax: Perl"
+			],
+			[
+				"syntax py",
+				"Plugin Development: Convert Syntax to .sublime-syntax"
+			],
+			[
+				"syntax j",
+				"Set Syntax: HTML (Jinja2)"
+			],
+			[
+				"jinj",
+				"Set Syntax: Jinja2"
+			],
+			[
+				"markdown ",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"synta",
+				"Set Syntax: Jinja2"
+			],
+			[
+				"markdow",
+				"Set Syntax: MultiMarkdown"
+			],
+			[
+				"sync",
+				"Sync Settings: Download"
+			],
+			[
+				"sync settings",
+				"Sync Settings: Download"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/ajanis/Documents/project-home/ansible/roles/awx/AWX_SETUP_NOTES.md",
+		"/Users/ajanis/Documents/project-home/ansible/roles/foreman/README.md",
+		"/Users/ajanis/Library/Application Support/Sublime Text 3/Packages/Material Color Scheme/sublime/material-dark.tmTheme",
+		"/Users/ajanis/Documents/project-home/ansible/roles/ansible-project/README.md",
+		"/Users/ajanis/Documents/project-home/ansible/roles/ansible-project/tasks/install.yml",
+		"/Users/ajanis/Documents/project-home/ansible/roles/ansible-project/tasks/configure.yml",
+		"/Users/ajanis/Documents/project-home/ansible/roles/ansible-project/tasks/install-debian.yml",
+		"/Users/ajanis/Documents/project-home/ansible/group_vars/automation/vault.yml",
+		"/Users/ajanis/Documents/project-home/ansible/.git/modules/roles/ansible-project/COMMIT_EDITMSG",
+		"/Users/ajanis/Documents/project-home/ansible/roles/foreman/templates/smart-proxy/foreman_config.j2",
+		"/Users/ajanis/Documents/project-home/ansible/roles/docker/README.md",
+		"/Users/ajanis/Library/Application Support/Sublime Text 3/Packages/User/Markdown.sublime-settings",
+		"/Users/ajanis/Documents/project-home/ansible/roles/ansible-project/2019-11-05.md",
+		"/Users/ajanis/Library/Application Support/Sublime Text 3/Packages/Material Theme/schemes/Material-Theme.tmTheme",
+		"/Users/ajanis/Library/Application Support/Sublime Text 3/Packages/User/Markdown (Standard).sublime-settings",
+		"/Users/ajanis/Library/Application Support/Sublime Text 3/Packages/User/MultiMarkdown.sublime-settings",
+		"/Users/ajanis/Library/Application Support/Sublime Text 3/Packages/MarkdownEditing/Markdown (Standard).sublime-settings",
+		"/Users/ajanis/Library/Application Support/Sublime Text 3/Packages/MarkdownEditing/Markdown.sublime-settings",
+		"/Users/ajanis/Library/Application Support/Sublime Text 3/Packages/MarkdownEditing/MultiMarkdown.sublime-settings",
+		"/Users/ajanis/Library/Application Support/Sublime Text 3/Packages/MarkdownEditing/README.md",
+		"/Users/ajanis/Documents/project-home/ansible/roles/ansible-project/README.html",
+		"/Users/ajanis/Documents/project-home/ansible/roles/ansible-project/vars/debian.yml",
+		"/Users/ajanis/Documents/project-home/ansible/foreman.yml",
+		"/Users/ajanis/Documents/project-home/ansible/group_vars/prettybaked/vault.yml",
+		"/Users/ajanis/Downloads/job_27.txt",
+		"/Users/ajanis/Documents/project-home/ansible/roles/foreman/vars/debian.yml",
+		"/Users/ajanis/Documents/project-home/ansible/roles/foreman/vars/redhat.yml",
+		"/Users/ajanis/Documents/project-home/ansible/group_vars/foreman/vars.yml",
+		"/Users/ajanis/Documents/project-home/ansible/roles/foreman/tasks/main.yml",
+		"/Users/ajanis/Documents/project-home/ansible/group_vars/foreman/vault.yml",
+		"/Users/ajanis/Documents/project-home/ansible/roles/foreman/templates/inventory.j2",
+		"/Users/ajanis/Documents/project-home/ansible/roles/awx/tasks/update_ca.yml",
+		"/Users/ajanis/Documents/project-home/ansible/roles/awx/defaults/main.yml",
+		"/Users/ajanis/Documents/project-home/ansible/roles/docker/meta/main.yml",
+		"/Users/ajanis/Documents/project-home/ansible/roles/awx/templates/docker-compose.yml.j2",
+		"/Users/ajanis/Documents/project-home/ansible/roles/docker/tasks/network-setup.yml",
+		"/Users/ajanis/Documents/project-home/ansible/roles/docker/handlers/main.yml",
+		"/Users/ajanis/Documents/project-home/ansible/roles/docker/tasks/container-setup.yml",
+		"/Users/ajanis/Documents/project-home/ansible/roles/awx/tasks/main.yml",
+		"/Users/ajanis/Documents/project-home/ansible/roles/awx/templates/nginx.conf.j2",
+		"/Users/ajanis/Documents/project-home/ansible/roles/awx/tasks/assure_vars.yml",
+		"/Users/ajanis/Documents/project-home/ansible/roles/awx/tasks/config_files.yml",
+		"/Users/ajanis/Documents/project-home/ansible/roles/docker/templates/docker-container.service.j2",
+		"/Users/ajanis/Documents/project-home/ansible/roles/docker/tasks/container-service.yml",
+		"/Users/ajanis/Documents/project-home/ansible/roles/foreman/tasks/awx.yml",
+		"/Users/ajanis/Documents/project-home/ansible/roles/docker/vars/Debian.yml",
+		"/Users/ajanis/Documents/project-home/ansible/roles/foreman/defaults/main.yml",
+		"/Users/ajanis/Documents/project-home/ansible/roles/nginx/vars/Debian.yml",
+		"/Users/ajanis/Documents/project-home/ansible/roles/nginx/vars/RedHat.yml",
+		"/Users/ajanis/Documents/project-home/ansible/roles/nginx/tasks/repository.yml",
+		"/Users/ajanis/Documents/project-home/ansible/roles/nginx/tasks/install-redhat.yml",
+		"/Users/ajanis/Documents/project-home/ansible/roles/nginx/tasks/install-debian.yml",
+		"/Users/ajanis/Documents/project-home/ansible/roles/nginx/defaults/main.yml",
+		"/Users/ajanis/Documents/project-home/ansible/roles/nginx/tasks/configuration.yml",
+		"/Users/ajanis/Documents/project-home/ansible/roles/nginx/tasks/installation.yml",
+		"/Users/ajanis/Documents/project-home/ansible/roles/nginx/tasks/main.yml",
+		"/Users/ajanis/Documents/project-home/ansible/roles/nginx/vars/ubuntu18.yaml",
+		"/Users/ajanis/Documents/project-home/ansible/roles/ansible-project/tasks/main.yml",
+		"/Users/ajanis/Documents/project-home/ansible/roles/ansible-project/defaults/main.yml",
+		"/Users/ajanis/Documents/project-home/ansible/roles/foreman/templates/etc/foreman/settings.yaml.j2",
+		"/Users/ajanis/Documents/project-home/ansible/roles/common/tasks/hostfile.yml",
+		"/Users/ajanis/Documents/project-home/ansible/roles/foreman/templates/etc/foreman-proxy/settings.yml.j2",
+		"/Users/ajanis/.zshrc",
+		"/var/folders/0m/yc0bgld906l8ptbk_7jvs4xw0000gn/T/tmpt3ibpe9a.yml",
+		"/var/folders/0m/yc0bgld906l8ptbk_7jvs4xw0000gn/T/tmph2750qdm.yml",
+		"/var/folders/0m/yc0bgld906l8ptbk_7jvs4xw0000gn/T/tmpa68xx283.yml",
+		"/etc/sudoers",
+		"/etc/sudoers.tmp",
+		"/Users/ajanis/Documents/project-home/ansible/roles/ansible/tasks/install.yml",
+		"/Users/ajanis/Documents/project-home/ansible/roles/ansible/tasks/configure.yml",
+		"/Users/ajanis/Documents/project-home/ansible/roles/ansible/tasks/main.yml",
+		"/Users/ajanis/Documents/project-home/ansible/roles/ansible/defaults/main.yml",
+		"/Users/ajanis/Documents/project-home/ansible/roles/ansible/meta/main.yml",
+		"/Users/ajanis/Documents/project-home/ansible/roles/ansible/tasks/install-debian.yml",
+		"/Users/ajanis/Documents/project-home/ansible/roles/ansible/vars/debian.yml",
+		"/Users/ajanis/Documents/project-home/ansible/roles/ansible/vars/main.yml",
+		"/Users/ajanis/Documents/project-home/ansible/roles/openldap/README.md",
+		"/Users/ajanis/Documents/project-home/ansible/group_vars/prettybaked/vars.yml",
+		"/Users/ajanis/Documents/project-home/ansible/roles/openldap/tasks/configure_smb.yml",
+		"/Users/ajanis/Documents/project-home/ansible/hosts-prettybaked",
+		"/Users/ajanis/Documents/project-home/ansible/roles/foreman/templates/etc/foreman-proxy/dhcp_isc.yml.j2",
+		"/Users/ajanis/Documents/project-home/ansible/roles/foreman/tasks/install.yml",
+		"/Users/ajanis/Library/Application Support/Sublime Text 3/Packages/User/SyncSettings.sublime-settings",
+		"/Users/ajanis/.sync_settings/sync.log",
+		"/Users/ajanis/Library/Application Support/Sublime Text 3/Packages/Sync Settings/SyncSettings.sublime-settings"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": true,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 42.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 104.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.loghighlight":
+	{
+		"height": 0.0
+	},
+	"output.markdown":
+	{
+		"height": 116.0
+	},
+	"output.mde":
+	{
+		"height": 116.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/MarkdownPreview/Markdown.sublime-build",
+	"project": "ansible-mediaserver-project.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 354.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 937.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 250.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 1
+	}
+}
