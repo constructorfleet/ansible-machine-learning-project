@@ -4,6 +4,26 @@
   name: docker
   version: master
 
+- src: https://github.com/ajanis/ansible-common.git
+  name: common
+  version: master
+
+- src: https://github.com/ajanis/ansible-ceph-fs.git
+  name: ceph-fs
+  version: master
+
+- src: https://github.com/ajanis/ansible-nfs.git
+  name: nfs
+  version: master
+
+- src: https://github.com/ajanis/ansible-openldap.git
+  name: openldap
+  version: master
+
+- src: https://github.com/ajanis/ansible-telegraf.git
+  name: telegraf
+  version: master
+
 - src: https://github.com/constructorfleet/ansible-nvidia-docker.git
   name: nvidia-docker
   version: master

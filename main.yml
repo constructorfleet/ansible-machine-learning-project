@@ -5,10 +5,34 @@
   gather_facts: true
 
   tasks:
-    - name: Setup NVidia Container Toolkit
+    - name: Setup basic services and environment
       block:
+        - import_role:
+            name: common
+        - import_role:
+            name: openldap
+          when:  openldap_server_ip is defined and openldap_server_ip != None
+        - import_role:
+            name: ceph-fs
+          when:
+            - shared_storage
+            - storage_backend == "cephfs"
+        - import_role:
+            name: nfs
+          when:
+            - shared_storage
+            - storage_backend == "nfs"
         - import_role:
             name: docker
 
+    - name: Setup machine learning services
+      block:
         - import_role:
             name: nvidia-docker
+      when: 'machine_learning' in group_names
+
+    - name: Configure Telegraf
+      block:
+        - import_role:
+            name: telegraf
+        - setup:
