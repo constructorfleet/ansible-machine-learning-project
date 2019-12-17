@@ -17,8 +17,8 @@
       when:
         - '"machine_learning" in group_names'
 
-    - name: Configure Telegraf
-      block:
-        - import_role:
-            name: telegraf
-        - setup:
+    # - name: Configure Telegraf
+    #   block:
+    #     - import_role:
+    #         name: telegraf
+    #     - setup:
