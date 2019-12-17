@@ -4,6 +4,9 @@
   remote_user: root
   gather_facts: true
 
+  vars_files:
+    - vault.yml
+
   tasks:
     - name: Setup basic services and environment
       block:
