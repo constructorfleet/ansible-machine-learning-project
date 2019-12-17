@@ -1,6 +1,6 @@
 - name: Deploy Machine Learning Services
   hosts:
-    - machine-learning
+    - machine_learning
   remote_user: root
   gather_facts: true
 
