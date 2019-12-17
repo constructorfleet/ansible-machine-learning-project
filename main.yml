@@ -1,0 +1,11 @@
+- name: Deploy Machine Learning Services
+  hosts:
+    - machine-learning
+  remote_user: root
+  gather_facts: true
+
+  tasks:
+    - name: Setup NVidia Container Toolkit
+      block:
+        - import_role:
+            name: nvidia-docker
