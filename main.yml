@@ -8,4 +8,7 @@
     - name: Setup NVidia Container Toolkit
       block:
         - import_role:
+            name: docker
+
+        - import_role:
             name: nvidia-docker
