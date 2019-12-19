@@ -5,17 +5,19 @@
   gather_facts: true
 
   tasks:
-    - name: Setup basic services and environment
-      block:
-        - import_role:
-            name: docker
-
     - name: Setup machine learning services
       block:
         - import_role:
             name: nvidia-docker
+        - import_role:
+            name: nvidia-cuda
       when:
         - '"machine_learning" in group_names'
+
+    - name: Setup basic services and environment
+      block:
+        - import_role:
+            name: docker
 
     # - name: Configure Telegraf
     #   block:

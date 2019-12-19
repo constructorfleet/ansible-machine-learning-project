@@ -8,3 +8,7 @@
 - src: https://github.com/constructorfleet/ansible-nvidia-docker.git
   name: nvidia-docker
   version: master
+- src: https://github.com/constructorfleet/ansible-nvidia-cuda.git
+  name: nvidia-cuda
+  version: master
+
