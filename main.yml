@@ -16,6 +16,8 @@
             name: nvidia-docker
         - import_role:
             name: nvidia-cuda
+        - import_role:
+            name: deepspeech
       when:
         - '"machine_learning" in group_names'
 

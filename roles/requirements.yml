@@ -11,4 +11,7 @@
 - src: https://github.com/constructorfleet/ansible-nvidia-cuda.git
   name: nvidia-cuda
   version: master
+- src: https://github.com/constructorfleet/ansible-deepspeech.git
+  name: deepspeech
+  version: master
 
