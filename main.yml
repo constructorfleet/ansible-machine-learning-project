@@ -4,12 +4,12 @@
   remote_user: root
   gather_facts: true
 
-  - name: Setup basic services and environment
+  tasks:
+    - name: Setup basic services and environment
       block:
         - import_role:
             name: docker
-
-  tasks:
+            
     - name: Setup machine learning services
       block:
         - import_role:
