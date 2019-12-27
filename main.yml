@@ -18,6 +18,8 @@
             name: nvidia-cuda
         - import_role:
             name: deepspeech
+        - import_role:
+            name: rasa
       when:
         - '"machine_learning" in group_names'
 

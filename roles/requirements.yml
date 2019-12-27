@@ -14,4 +14,6 @@
 - src: https://github.com/constructorfleet/ansible-deepspeech.git
   name: deepspeech
   version: master
-
+- src: https://github.com/constructorfleet/ansible-rasa.git
+  name: rasa
+  version: master
