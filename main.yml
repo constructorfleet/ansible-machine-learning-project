@@ -9,7 +9,8 @@
       block:
         - import_role:
             name: docker
-            
+    
+    - block: Set up DL and ML services  
     - name: Setup machine learning services
       block:
         - import_role:
@@ -23,8 +24,7 @@
       when:
         - '"machine_learning" in group_names'
 
-    # - name: Configure Telegraf
-    #   block:
-    #     - import_role:
-    #         name: telegraf
-    #     - setup:
+    - name: Configure Telegraf
+      block:
+        - import_role:
+            name: telegraf
