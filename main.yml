@@ -11,7 +11,7 @@
             name: docker
     
     - block: Set up DL and ML services  
-    - name: Setup machine learning services
+      name: Setup machine learning services
       block:
         - import_role:
             name: nvidia-docker
