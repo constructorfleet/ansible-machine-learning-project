@@ -9,21 +9,31 @@
       block:
         - import_role:
             name: docker
+      tags:
+        - always
     
     - name: Setup machine learning services
       block: 
-        - import_role:
-            name: nvidia-docker
-        - import_role:
-            name: nvidia-cuda
-        # - import_role:
-        #     name: deepspeech
-        # - import_role:
-            # name: rasa
+
+        - name: NVidia CUDA
+          block:
+            - import_role:
+                name: nvidia-cuda
+            - import_role:
+                name: nvidia-docker
+            - import_role:
+                name: name: nvidia-cuda
+          tags:
+            - cuda
       when:
         - '"machine_learning" in group_names'
+      tags:
+        - cuda
 
-    - name: Configure Telegraf
+    - name: Configure metrics and logging
       block:
         - import_role:
             name: telegraf
+      tags:
+        - always
+
