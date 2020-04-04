@@ -21,8 +21,6 @@
                 name: nvidia-cuda
             - import_role:
                 name: nvidia-docker
-            - import_role:
-                name: name: nvidia-cuda
           tags:
             - cuda
       when:
