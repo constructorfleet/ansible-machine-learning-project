@@ -9,6 +9,8 @@
       block:
         - import_role:
             name: docker
+        - import_role:
+            name: edgetpu
       tags:
         - always
     

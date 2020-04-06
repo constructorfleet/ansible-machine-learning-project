@@ -17,3 +17,6 @@
 - src: https://github.com/constructorfleet/ansible-rasa.git
   name: rasa
   version: master
+- src: https://github.com/constructorfleet/ansible-edgetpu.git
+  name: edgetpu
+  version: master
