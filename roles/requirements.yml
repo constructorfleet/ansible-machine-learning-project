@@ -11,12 +11,12 @@
 - src: https://github.com/constructorfleet/ansible-nvidia-cuda.git
   name: nvidia-cuda
   version: master
-- src: https://github.com/constructorfleet/ansible-deepspeech.git
-  name: deepspeech
-  version: master
-- src: https://github.com/constructorfleet/ansible-rasa.git
-  name: rasa
-  version: master
+# - src: https://github.com/constructorfleet/ansible-deepspeech.git
+#   name: deepspeech
+#   version: master
+# - src: https://github.com/constructorfleet/ansible-rasa.git
+#   name: rasa
+#   version: master
 - src: https://github.com/constructorfleet/ansible-edgetpu.git
   name: edgetpu
   version: master
