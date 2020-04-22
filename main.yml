@@ -10,6 +10,10 @@
   tasks:
     # - name: Install Drivers
     #   block:
+    # - import_role:
+    #     name: avahi-daemon
+    #     when:
+    #       -  enalbe_mdns_reflection
     #     # Docker packages are required for nvidia-docker
     #     - include_role:
     #         name: docker
@@ -35,10 +39,12 @@
     #   tags:
     #     - drivers
 
-    - name: Setup services
+    - name: Setup Services
       block:
         - import_role:
             name: avahi-daemon
+          when:
+            - enable_mdns_reflection
         - import_role:
             name: docker
         # TODO: Backup
