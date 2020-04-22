@@ -20,3 +20,6 @@
 - src: https://github.com/constructorfleet/ansible-edgetpu.git
   name: edgetpu
   version: master
+- src: https://github.com/constructorfleet/ansible-avahi-daemon.git
+  name: avahi-daemon
+  version: master

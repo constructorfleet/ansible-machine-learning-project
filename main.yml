@@ -38,6 +38,8 @@
     - name: Setup services
       block:
         - import_role:
+            name: avahi-daemon
+        - import_role:
             name: docker
         # TODO: Backup
         # TODO: Configs
