@@ -8,36 +8,36 @@
     - vault.yml
 
   tasks:
-    # - name: Install Drivers
-    #   block:
-    # - import_role:
-    #     name: avahi-daemon
-    #     when:
-    #       -  enalbe_mdns_reflection
-    #     # Docker packages are required for nvidia-docker
-    #     - include_role:
-    #         name: docker
-    #         apply:
-    #           vars:
-    #             docker_containers: {}
-    #             docker_networks: {}
-    #             docker_compose_projects: []
-    #       when:
-    #         - nvidia_cuda | default(false)
-    #     - import_role:
-    #         name: nvidia-cuda
-    #       when:
-    #         - nvidia_cuda | default(false)
-    #     - import_role:
-    #         name: nvidia-docker
-    #       when:
-    #         - nvidia_cuda | default(false)
-    #     - import_role:
-    #         name: edgetpu
-    #       when:
-    #         - (edgetpu_usb | default(false)) or (edgetpu_m2 | default(false)) or (edgetpu_pcie | default(false))
-    #   tags:
-    #     - drivers
+    - name: Install Drivers
+      block:
+    - import_role:
+        name: avahi-daemon
+        when:
+          -  enalbe_mdns_reflection
+        # Docker packages are required for nvidia-docker
+        - include_role:
+            name: docker
+            apply:
+              vars:
+                docker_containers: {}
+                docker_networks: {}
+                docker_compose_projects: []
+          when:
+            - nvidia_cuda | default(false)
+        - import_role:
+            name: nvidia-cuda
+          when:
+            - nvidia_cuda | default(false)
+        - import_role:
+            name: nvidia-docker
+          when:
+            - nvidia_cuda | default(false)
+        - import_role:
+            name: edgetpu
+          when:
+            - (edgetpu_usb | default(false)) or (edgetpu_m2 | default(false)) or (edgetpu_pcie | default(false))
+      tags:
+        - drivers
 
     - name: Setup Services
       block:
